@@ -2,7 +2,7 @@ import React from 'react';
 
 // Here we are using object destructuring assignment to pluck off our variables from the props object
 // We assign them to their own variable names
-function NavTabs({ currentPage, handlePageChange }) {
+function Header({ currentPage, handlePageChange }) {
   return (
     <ul className="nav nav-tabs center">
       <li className="nav-item">
@@ -46,8 +46,13 @@ function NavTabs({ currentPage, handlePageChange }) {
           Contact
         </a>
       </li>
+      <li className="nav-item">
+      <a href="https://drive.google.com/file/d/1ICp0f0YptKFkCxeuU7ah8ZAimzFtwQS7/view">
+          Resume
+        </a>
+      </li>
     </ul>
   );
 }
 
-export default NavTabs;
+export default Header;

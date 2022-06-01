@@ -1,3 +1,4 @@
+
 .homepic {
     margin-top: 20px;
     height: 30%;
@@ -5,8 +6,9 @@
 }
 
 .hometext {
-    font-size: 20px;
+    font-size: 30px;
     margin-top: 20px;
+    font-weight: bold;
 }
 
 .center{
@@ -32,7 +34,7 @@
 }
 
 .GitFittext {
-    font-size: 20px;
+    font-size: 30px;
     margin-top: 20px;
 }
 
@@ -42,7 +44,7 @@
 }
 
 .UnblockUnwindtext {
-    font-size: 20px;
+    font-size: 30px;
     margin-top: 20px;
 }
 
@@ -56,7 +58,7 @@
     left: 0;
     bottom: 0;
     right: 0;
-    background-color: aquamarine;
+    background-color: #7fffd4;
 }
 
 .marginbtm {
@@ -66,3 +68,21 @@
 .nav {
     background-color: aquamarine;
 }
+
+.projecttext {
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.abouttext {
+    font-size: 25px;
+    font-weight: bold;
+}
+
+.backgroundimg {
+    background-image: url(../../images/forest.jpg);
+}
+
+html, body, #root, .App {
+    height: 100%;
+  }
